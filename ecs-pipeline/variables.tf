@@ -7,13 +7,13 @@
 # Customize the Cluster Name
 variable "cluster_name" {
   description = "ECS Cluster Name"
-  default     = "web-app"
+  default     = "playground-web-app"
 }
 
 # Customize your ECR Registry Name
 variable "app_repository_name" {
   description = "ECR Repository Name"
-  default     = "web-app"
+  default     = "playground-web-app"
 }
 
 ###### APPLICATION OPTIONS  ######
@@ -77,13 +77,13 @@ variable "container_port" {
 # Github Repository Owner
 variable "git_repository_owner" {
   description = "Github Repository Owner"
-  default     = "msfidelis"
+  default     = "haooliveira84"
 }
 
 # Github Repository Project Name
 variable "git_repository_name" {
   description = "Project name on Github"
-  default     = "micro-api"
+  default     = "aws-playground"
 }
 
 # Default Branch
